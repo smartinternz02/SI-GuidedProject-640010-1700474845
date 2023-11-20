@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Prediction</title>
+</head>
+<body>
+    <h1>Welcome to Weather Prediction</h1>
+    <p>Enter the following weather data to make a prediction:</p>
+    <form method="POST" action="/predict">
+        <label for="MinofupperTRange">Min of Upper Temperature Range:</label>
+        <input type="text" name="MinofupperTRange" required><br>
+    
+        <label for="MaxOfLowerTRange">Max of Lower Temperature Range:</label>
+        <input type="text" name="MaxOfLowerTRange" required><br>
+    
+        <label for="MinofLowerTRange">Min of Lower Temperature Range:</label>
+        <input type="text" name="MinofLowerTRange" required><br>
+    
+        <label for="AverageOfUpperTRange">Average of Upper Temperature Range:</label>
+        <input type="text" name="AverageOfUpperTRange" required><br>
+    
+        <label for="AverageRainingDays">Average Raining Days:</label>
+        <input type="text" name="AverageRainingDays" required><br>
+    
+        <label for="AverageOfLowerTRange">Average of Lower Temperature Range:</label>
+        <input type="text" name="AverageOfLowerTRange" required><br>
+    
+        <label for="MaxOfUpperTRange">Max of Upper Temperature Range:</label>
+        <input type="text" name="MaxOfUpperTRange" required><br>
+    
+        <label for="Honeybees">Honeybees:</label>
+        <input type="text" name="Honeybees" required><br>
+    
+        <!-- Add more input fields for additional weather data here -->
+    
+        <input type="submit" value="Predict">
+    </form>
+    
+</body>
+</html>
